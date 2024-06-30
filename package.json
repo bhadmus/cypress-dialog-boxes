@@ -1,0 +1,25 @@
+{
+  "name": "cypress-dialog-boxes",
+  "version": "1.0.0-alpha",
+  "description": "Cypress Plugin to handle dialog boxes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhadmus/cypress-dialog-boxes.git"
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "author": "Ademola Bhadmus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhadmus/cypress-dialog-boxes/issues"
+  },
+  "homepage": "https://github.com/bhadmus/cypress-dialog-boxes#readme",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}

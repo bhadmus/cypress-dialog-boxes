@@ -1,0 +1,6 @@
+node_modules/
+cypress/
+package-lock.json
+.vscode/
+.DS_Store
+.idea?
