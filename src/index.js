@@ -17,3 +17,10 @@ Cypress.Commands.add('cancelConfirmBox', (value)=>{
         return false
     })
 })
+
+Cypress.Commands.add('checkPrompt', (element, textInserted)=>{
+    cy.window().then((win) => {
+        cy.stub(win, 'prompt').returns(textInserted);
+        cy.get(element).should('exist').click();
+      });
+})

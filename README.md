@@ -36,6 +36,15 @@ cy.cancelConfirmBox(confirm-text)
 cy.get(#confirm-button).click();
 ```
 
+### Window Prompt
+
+> cy.checkPrompt(element-to-click, text-to-insert)
+
+```
+cy.checkPrompt(element-to-click, text-to-insert)
+
+```
+
 ## Compatibility
 
 It should be compatible with all versions of Cypress

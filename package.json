@@ -1,6 +1,6 @@
 {
   "name": "cypress-dialog-boxes",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Cypress Plugin to handle dialog boxes",
   "main": "src/index.js",
   "scripts": {
