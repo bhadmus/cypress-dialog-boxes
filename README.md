@@ -5,7 +5,7 @@
 
 ## Configuration
 
-- [ ] Insert `import 'cypress-dialog-boxes'` in the `support/e2e.js` file.
+Insert `import 'cypress-dialog-boxes'` in the `support/e2e.js` file.
 
 ## Usage
 
